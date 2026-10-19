@@ -1,0 +1,63 @@
+/* DataArt RBQM Insight - design tokens. Single source of truth for color, type, spacing, radius. */
+:root{
+  /* type */
+  --font-sans: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  /* brand */
+  --c-blue-400: #3453ad;   /* primary / links / active nav */
+  --c-blue-800: #0a1e53;   /* deep navy - headers, sidebar */
+  --c-blue-600: #1a316d;   /* navy mid */
+  --c-blue-100: #b0c6ff;   /* soft blue tint */
+  --c-sky-400: #53cff8;    /* accent / AI */
+  --c-sky-600: #21b9ec;
+
+  /* text */
+  --c-text: #000000;
+  --c-text-900: #2c3337;
+  --c-text-600: #707477;
+  --c-text-400: #a1a4a6;
+
+  /* surfaces */
+  --c-border: #e2e6e9;
+  --c-border-strong: #cfd3d6;
+  --c-panel: #f1f2f2;
+  --c-panel-lightest: #f8fafa;
+  --c-surface: #ffffff;
+
+  /* status */
+  --c-ok-fill: #08a8a4;
+  --c-ok-tint: #b5f1ee;
+  --c-ok-text: #067c7a;
+
+  --c-watch-fill: #ffb133;
+  --c-watch-tint: #fff0d2;
+  --c-watch-text: #a56709;
+
+  --c-action-fill: #f0503c;
+  --c-action-tint: #ffdbd6;
+  --c-action-text: #9e2111;
+
+  --c-ai-tint: #e8f9fe;
+  --c-ai-text: #1a316d;
+
+  --c-selected: #70529f;
+
+  /* radius / spacing - compact scale so more fits without scrolling */
+  --radius-card: 10px;
+  --radius-control: 7px;
+  --radius-pill: 999px;
+  --space-1: 3px;
+  --space-2: 6px;
+  --space-3: 9px;
+  --space-4: 12px;
+  --space-5: 17px;
+  --space-6: 24px;
+
+  /* layout */
+  --sidebar-width: 212px;
+  --header-height: 52px;
+
+  /* elevation */
+  --shadow-card: 0 1px 2px rgba(10, 30, 83, 0.06);
+  --shadow-pop: 0 8px 24px rgba(10, 30, 83, 0.16);
+}

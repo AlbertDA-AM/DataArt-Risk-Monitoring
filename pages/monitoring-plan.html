@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monitoring plan | DataArt RBQM Insight</title>
+<link rel="icon" href="../assets/img/dataart-logo-small.svg">
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/app.css">
+</head>
+<body>
+<div id="app"></div>
+
+<script src="../vendor/d3/d3.min.js"></script>
+<script src="../vendor/topojson/topojson.min.js"></script>
+<script src="../vendor/echarts/echarts.min.js"></script>
+<script src="../assets/js/core/config.js"></script>
+<script src="../assets/js/core/format.js"></script>
+<script src="../assets/js/core/a11y.js"></script>
+<script src="../assets/js/core/router.js"></script>
+<script src="../assets/js/core/store.js"></script>
+<script src="../assets/js/data/reference.js"></script>
+<script src="../assets/js/data/kri-catalog.js"></script>
+<script src="../assets/js/engine/stats.js"></script>
+<script src="../assets/js/engine/scoring.js"></script>
+<script src="../assets/js/engine/forecast.js"></script>
+<script src="../assets/js/engine/monitoring-plan.js"></script>
+<script src="../assets/js/engine/signals.js"></script>
+<script src="../assets/js/engine/capa.js"></script>
+<script src="../assets/js/data/generator.js"></script>
+<script src="../assets/js/data/generator-workflow.js"></script>
+<script src="../assets/js/data/generator-events.js"></script>
+<script src="../assets/js/data/generator-assemble.js"></script>
+<script src="../assets/js/data/seed.js"></script>
+<script src="../assets/js/components/toast.js"></script>
+<script src="../assets/js/components/modal.js"></script>
+<script src="../assets/js/components/drawer.js"></script>
+<script src="../assets/js/components/tabs.js"></script>
+<script src="../assets/js/components/table.js"></script>
+<script src="../assets/js/components/kpi-card.js"></script>
+<script src="../assets/js/components/map.js"></script>
+<script src="../assets/js/components/sidebar.js"></script>
+<script src="../assets/js/components/header.js"></script>
+<script src="../assets/js/components/shell.js"></script>
+<script src="../assets/js/engine/assistant.js"></script>
+<script src="../assets/js/engine/assistant-intents.js"></script>
+<script src="../assets/js/components/ai-panel.js"></script>
+<script src="../assets/js/pages/monitoring-plan.js"></script>
+<script>
+  RBQM_SHELL.mount({
+    activeId: 'monitoring-plan',
+    title: 'Monitoring plan',
+    subtitle: 'All studies',
+    onMount: function (contentEl, data) { RBQM_PAGE_MONITORING_PLAN.render(contentEl, data); }
+  });
+</script>
+</body>
+</html>
